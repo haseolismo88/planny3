@@ -1,0 +1,12 @@
+{
+  "name": "planny-openai-vercel",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "22.x" },
+  "scripts": {
+    "verify": "node scripts/verify-deploy.mjs",
+    "vercel-build": "node scripts/verify-deploy.mjs",
+    "test": "node --test test/*.test.js"
+  }
+}
